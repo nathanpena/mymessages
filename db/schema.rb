@@ -20,7 +20,7 @@ ActiveRecord::Schema.define(version: 20171014173210) do
 
   create_table "messages", force: :cascade do |t|
     t.text "content"
-    t.datetime "occured_at"
+    t.datetime "occurred_at"
     t.integer "account_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
